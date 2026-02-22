@@ -1,0 +1,9 @@
+sudo docker compose exec | ران کردن دستور در کانتینر درحال اجرا
+
+sudo docker compose exec app php artisan migrate | ران کردن دستور مایگرت روی پروژه لاراول (app اسم سرویسه)
+
+sudo docker compose ps | لیست کانتینر ها
+
+sudo docker compose up -d --build | بیلد کردن پروژه داکر و ران شدن کانتینر ها
+
+sudo docker compose down
